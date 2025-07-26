@@ -12,6 +12,7 @@ import {
   FaTiktok,
   FaGlobe,
   FaYoutube,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 interface Props {
@@ -165,6 +166,20 @@ const iconClass =
           >
             <span class="sr-only">YouTube</span>
             <FaYoutube className="w-6 h-6" />
+          </a>
+        </li>
+      )}
+      {links.whatsapp && (
+        <li class={liClass}>
+          <a
+            class={iconClass}
+            aria-label="WhatsApp"
+            href={links.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            <span class="sr-only">WhatsApp</span>
+            <FaWhatsapp className="w-6 h-6" />
           </a>
         </li>
       )}
