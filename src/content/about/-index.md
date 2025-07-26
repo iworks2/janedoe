@@ -1,7 +1,7 @@
 ---
-title: Hey, I'm Jane Doe!
+title: Hallo, ich bin Florian Kromer!
 description: this is meta description
-image: "@assets/profile/jane-doe.jpg"
+image: "@assets/profile/florian-kromer.png"
 draft: false
 ---
 
