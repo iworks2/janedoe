@@ -11,7 +11,6 @@ export type HomeEntry = CollectionEntry<"startseite">;
 export type IndexCardsEntry = CollectionEntry<"indexCards">;
 export type PoetryEntry = CollectionEntry<"poetry">;
 export type PortfolioEntry = CollectionEntry<"portfolio">;
-export type RecipesEntry = CollectionEntry<"recipes">;
 export type TermsEntry = CollectionEntry<"terms">;
 
 export type SearchableEntry =
@@ -21,7 +20,6 @@ export type SearchableEntry =
   | DocsEntry
   | PoetryEntry
   | PortfolioEntry
-  | RecipesEntry
   | TermsEntry;
 
 export type SocialLinks = {
