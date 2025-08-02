@@ -1,9 +1,9 @@
 ---
 image: "@assets/astrogon-star.svg"
 imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
+title: Bürgerinitiative Energieautonomie Oberland (BEo)
+content: Bürgerinitiative Energieautonomie Oberland
 button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+  label: Zur WhatsApp Gruppe
+  link: https://florian-kromer.eu
 ---
