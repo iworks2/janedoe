@@ -1,4 +1,4 @@
 ---
-title: Authors
-description: this is meta description
+title: Ansprechpartner
+description: Ansprechpartner der Bürgervereinigung Energieautonomie Oberland
 ---

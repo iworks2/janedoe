@@ -8,4 +8,4 @@ social:
   email: "kromer-florian@protonmail.com"
 ---
 
-Mein Heimat-Landkreis Bad Tölz-Worfratshausen soll Energie-Netto-Null-Landkreis werden!
+Möchte, dass sein Heimat-Landkreis Bad Tölz-Worfratshausen Energie-Netto-Null wird!
