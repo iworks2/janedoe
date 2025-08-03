@@ -35,9 +35,9 @@ const readingTime = (content: string, complexity: number): string => {
   ttr = Math.ceil(ttr / 60);
 
   if (ttr < 2) {
-    return ttr + ` min`;
+    return ttr + ` Minute`;
   } else {
-    return ttr + ` mins`;
+    return ttr + ` Minuten`;
   }
 };
 
