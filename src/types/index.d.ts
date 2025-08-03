@@ -9,7 +9,6 @@ export type BlogEntry = CollectionEntry<"blog">;
 export type DocsEntry = CollectionEntry<"docs">;
 export type HomeEntry = CollectionEntry<"startseite">;
 export type IndexCardsEntry = CollectionEntry<"indexCards">;
-export type PoetryEntry = CollectionEntry<"poetry">;
 export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type TermsEntry = CollectionEntry<"terms">;
 
@@ -18,7 +17,6 @@ export type SearchableEntry =
   | AuthorsEntry
   | BlogEntry
   | DocsEntry
-  | PoetryEntry
   | PortfolioEntry
   | TermsEntry;
 
