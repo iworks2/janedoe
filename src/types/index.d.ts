@@ -8,7 +8,6 @@ export type AuthorsEntry = CollectionEntry<"authors">;
 export type BlogEntry = CollectionEntry<"blog">;
 export type DocsEntry = CollectionEntry<"docs">;
 export type HomeEntry = CollectionEntry<"startseite">;
-export type IndexCardsEntry = CollectionEntry<"indexCards">;
 export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type TermsEntry = CollectionEntry<"terms">;
 
