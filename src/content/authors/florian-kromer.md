@@ -6,4 +6,4 @@ social:
   email: "kromer-florian@protonmail.com"
 ---
 
-Möchte dazu beitragen, dass sein Heimat-Landkreis Bad Tölz-Worfratshausen Energie-Netto-Null wird!
+Florian Kromer, Laich 12 1/5, 83676 Jachenau
