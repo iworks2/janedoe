@@ -35,7 +35,8 @@ const about = defineCollection({
 
 const authors = defineCollection({
   loader: glob({
-    pattern: "**\/[^_]*.{md,mdx}",
+    // Remove unnecessary escape character in glob pattern
+    pattern: "**/*[^_]*.{md,mdx}",
     base: "./src/content/authors",
   }),
   schema: ({ image }) =>
@@ -48,7 +49,8 @@ const authors = defineCollection({
 });
 
 const blog = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/blog" }),
+  // Remove unnecessary escape character in glob pattern
+  loader: glob({ pattern: "**/*[^_]*.{md,mdx}", base: "./src/content/blog" }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
@@ -63,7 +65,8 @@ const blog = defineCollection({
 });
 
 const docs = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/docs" }),
+  // Remove unnecessary escape character in glob pattern
+  loader: glob({ pattern: "**/*[^_]*.{md,mdx}", base: "./src/content/docs" }),
   schema: ({ image }) =>
     searchable.extend({
       pubDate: z.date().optional(),
@@ -105,7 +108,8 @@ const indexCards = defineCollection({
 });
 
 const poetry = defineCollection({
-  loader: glob({ pattern: "**\/[^_]*.{md,mdx}", base: "./src/content/poetry" }),
+  // Remove unnecessary escape character in glob pattern
+  loader: glob({ pattern: "**/*[^_]*.{md,mdx}", base: "./src/content/poetry" }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
@@ -134,7 +138,8 @@ const portfolio = defineCollection({
 
 const recipes = defineCollection({
   loader: glob({
-    pattern: "**\/[^_]*.{md,mdx}",
+    // Remove unnecessary escape character in glob pattern
+    pattern: "**/*[^_]*.{md,mdx}",
     base: "./src/content/recipes",
   }),
   schema: ({ image }) =>

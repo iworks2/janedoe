@@ -16,10 +16,12 @@
   }
 
   function setTheme(darkMode) {
-    // Update DOM
-    darkMode
-      ? document.documentElement.classList.add("dark")
-      : document.documentElement.classList.remove("dark");
+    // Update DOM - use explicit if-else instead of unused ternary expression
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
     // Update localStorage
     localStorage.setItem("theme", darkMode ? "dark" : "light");
   }

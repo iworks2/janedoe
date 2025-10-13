@@ -4,7 +4,7 @@ import { upperHumanize, plainify, slugify } from "@lib/textConverter";
 import {
   FaRegFolder,
   FaRegClock,
-  FaHashtag,
+  // Remove unused FaHashtag import as it's only used in commented code
   FaRegCalendarAlt,
 } from "react-icons/fa";
 import readingTime from "@lib/readingTime";
@@ -21,7 +21,7 @@ const {
   autodescription,
   date,
   categories,
-  tags,
+  // Remove unused tags variable as it's only used in commented code
   complexity,
 } = entry.data;
 
@@ -45,7 +45,7 @@ const entryDescription =
       {
         categories && (
           <li class="mr-0 inline-block">
-            {categories.map((category: string, index: number) => (
+            {categories.map((category: string) => (
               <a href={`/blog/categories/${slugify(category)}`}>
                 <FaRegFolder className={"ml-2 -mt-1 inline-block"} />
                 {upperHumanize(category)}

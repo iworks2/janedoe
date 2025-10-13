@@ -14,12 +14,14 @@ let parts = [
 
 paths.forEach((label: string, i: number) => {
   const href = `/${paths.slice(0, i + 1).join("/")}`;
-  label !== "page" &&
+  // Use explicit if statement instead of unused expression
+  if (label !== "page") {
     parts.push({
       label: lowerHumanize(label.replace(/[-_]/g, " ")) || "",
       href,
       "aria-label": Astro.url.pathname === href ? "page" : undefined,
     });
+  }
 });
 ---
 

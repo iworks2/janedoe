@@ -5,7 +5,8 @@ const readingTime = (content: string, complexity: number): string => {
   let images = 0;
   const regex = /\w/;
 
-  let words = content.split(" ").filter((word) => {
+  // Use const instead of let since words is never reassigned
+  const words = content.split(" ").filter((word) => {
     if (word.includes(".png)")
       || word.includes(".jpg)")
       || word.includes(".svg)")

@@ -13,7 +13,8 @@ const Tabs = ({ children }: { children: React.ReactElement }) => {
   const tabRefs: React.RefObject<HTMLElement[]> = useRef([]);
   useEffect(() => {
     if (defaultFocus) {
-      //@ts-ignore
+      // Use @ts-expect-error instead of @ts-ignore for better TypeScript compliance
+      // @ts-expect-error - focus() method exists on HTMLElement but TypeScript doesn't recognize it in this context
       tabRefs.current[active]?.focus();
     } else {
       setDefaultFocus(true);
@@ -54,7 +55,8 @@ const Tabs = ({ children }: { children: React.ReactElement }) => {
               tabIndex={index === active ? 0 : -1}
               onKeyDown={(event) => handleKeyDown(event, index)}
               onClick={() => setActive(index)}
-              //@ts-ignore
+              // Use @ts-expect-error instead of @ts-ignore for better TypeScript compliance
+              // @ts-expect-error - ref assignment to array element is not properly typed but works correctly
               ref={(ref) => (tabRefs.current[index] = ref)}
             >
               {item.name}

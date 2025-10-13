@@ -14,7 +14,8 @@ export function createHeadingHierarchy(headings: MarkdownHeading[]) {
     if (h.depth >= 2) {
       topLevelHeadings.push(h);
     } else {
-      let parent = topLevelHeadings[topLevelHeadings.length - 1];
+      // Use const instead of let since parent is never reassigned
+      const parent = topLevelHeadings[topLevelHeadings.length - 1];
       if (parent) {
         parent.subheadings.push(h);
       }
