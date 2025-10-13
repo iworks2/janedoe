@@ -35,8 +35,8 @@ const about = defineCollection({
 
 const authors = defineCollection({
   loader: glob({
-    // Remove unnecessary escape character in glob pattern
-    pattern: "**/*[^_]*.{md,mdx}",
+    // Fix glob pattern to correctly exclude files starting with underscore
+    pattern: "**/[^_]*.{md,mdx}",
     base: "./src/content/authors",
   }),
   schema: ({ image }) =>
@@ -49,8 +49,8 @@ const authors = defineCollection({
 });
 
 const blog = defineCollection({
-  // Remove unnecessary escape character in glob pattern
-  loader: glob({ pattern: "**/*[^_]*.{md,mdx}", base: "./src/content/blog" }),
+  // Fix glob pattern to correctly exclude files starting with underscore
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/blog" }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
@@ -65,8 +65,8 @@ const blog = defineCollection({
 });
 
 const docs = defineCollection({
-  // Remove unnecessary escape character in glob pattern
-  loader: glob({ pattern: "**/*[^_]*.{md,mdx}", base: "./src/content/docs" }),
+  // Fix glob pattern to correctly exclude files starting with underscore
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/docs" }),
   schema: ({ image }) =>
     searchable.extend({
       pubDate: z.date().optional(),
@@ -108,8 +108,8 @@ const indexCards = defineCollection({
 });
 
 const poetry = defineCollection({
-  // Remove unnecessary escape character in glob pattern
-  loader: glob({ pattern: "**/*[^_]*.{md,mdx}", base: "./src/content/poetry" }),
+  // Fix glob pattern to correctly exclude files starting with underscore
+  loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/poetry" }),
   schema: ({ image }) =>
     searchable.extend({
       date: z.date().optional(),
@@ -138,8 +138,8 @@ const portfolio = defineCollection({
 
 const recipes = defineCollection({
   loader: glob({
-    // Remove unnecessary escape character in glob pattern
-    pattern: "**/*[^_]*.{md,mdx}",
+    // Fix glob pattern to correctly exclude files starting with underscore
+    pattern: "**/[^_]*.{md,mdx}",
     base: "./src/content/recipes",
   }),
   schema: ({ image }) =>
