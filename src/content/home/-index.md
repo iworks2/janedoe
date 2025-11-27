@@ -2,8 +2,14 @@
 image: "@assets/astrogon-star.svg"
 imageAlt: Astrogon logo
 title: Edwin Eddy Johan Machaca Condori
-content: Ayaviri-Samán, Melgar, Puno, Perú
+content: | 
+  Quechua Language Revitalization & Sociolinguistic Leadership.
+  \
+  
+  "**Qheshwa siminchisqa kawsayninchismi**" 
+  \
+  _(The Quechua language is the essence of our lives)_.
 button:
-  label: CV
-  link: https://docs.google.com/document/d/1Y8Kk0IshorU-XypRXJRgu0IlWTgT1OSc/edit?usp=sharing&ouid=113581270888551927619&rtpof=true&sd=true
+  label: Complete CV
+  link: https://drive.google.com/file/d/18HczhlPB5V3mKuTQ6_RSpwpMVoASfHz1/preview?usp=sharing
 ---
