@@ -72,6 +72,8 @@ const docs = defineCollection({
       imageAlt: z.string().default(""),
       hideToc: z.boolean().default(false),
       hideNav: z.boolean().default(false),
+      embedCode: z.string().optional(), // Contendrá el HTML del iframe o código embed
+      embedTitle: z.string().optional(), // Título descriptivo para el embed
     }),
 });
 
