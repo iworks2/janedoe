@@ -1,7 +1,7 @@
 ---
 title: Eddy Machaca
 email: machaca1999@gmail.com
-image: "@assets/profile/jane-doe.jpg"
+image: "@assets/profile/eddy-machaca.jpg"
 social:
   github: "https://github.com/Eddy-Machaca"
   linkedIn: "https://www.linkedin.com/in/edwin-machaca/"

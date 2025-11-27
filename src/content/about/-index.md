@@ -1,7 +1,7 @@
 ---
-title: Hey, I'm Jane Doe!
+title: Hey, I'm Eddy Machaca!
 description: this is meta description
-image: "@assets/profile/jane-doe.jpg"
+image: "@assets/profile/eddy-machaca.jpg"
 draft: false
 ---
 
