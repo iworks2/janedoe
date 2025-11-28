@@ -1,4 +1,4 @@
 ---
-title: Blog Posts
+title: Research
 description: The research of Eddy Machaca
 ---
