@@ -1,8 +1,12 @@
 ---
-title: Hey, I'm Jane Doe!
+title: "A Voice for Quechua: Sociolinguistics & Language Renativization"
 description: this is meta description
-image: "@assets/profile/jane-doe.jpg"
+image: "@assets/profile/eddy-machaca.jpg"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+I am a **native speaker of Quechua Collao** from Puno, Peru, and a **Former Fulbright** Foreign Language Teaching Assistant **at Cornell University**. My foundational academic training in Business Economic Sciences (UCSP) and my multiple international exchanges in Austria, Mexico, and Colombia provided me with a strategic, analytical lens. A perspective I now apply to the critical field of linguistic and cultural resilience.
+\
+\
+My core research **vision** is to **research the effects of the current standardization of Southern Quechua on the dialectal identity of Collao Quechua speakers**. In particular, I would like to examine how top-down standardization practices affect linguistic self-perception, authenticity, and the sense of community of the Collao variant. 
+In addition, I would like to examine how a reconstructed or adapted writing system for Collao Quechua could better reflect its phonological reality and sociocultural identity. My overall goal is to understand how an orthography can support the renativization of everyday written use, that is, how Collao speakers can effectively integrate their own variant into daily communication, education, and public life.

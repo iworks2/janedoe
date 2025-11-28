@@ -1,85 +1,43 @@
 ---
-title: Deities
-description: A guide to the deities of the arcane, their domains, and blessings bestowed upon followers.
+title: Caranave Videó
+description: An interactive videó
 image: "@assets/docs/the-arcane/deities/cover.jpg"
-imageAlt: Painting of an important looking woman 
+imageAlt: La caravane portrait
 pubDate: 2024-12-02
 modDate: 2024-12-02
+embedTitle: Interactive audiovisual content
+embedCode: |
+    <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Caravane Vidéo - CCFD Terre Solidaire" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/648bb66e1866d000186b5f72" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 ---
 
-The arcane deities govern the mysteries of magic, knowledge, and the unseen threads that weave the world together. Their influence is subtle yet profound, and their blessings are sought by mages, scholars, and truth-seekers.
-
----
-
-## Vaelthar, The Weaver of Mysteries
-
-Vaelthar is the guardian of forbidden knowledge and the patron of wizards who seek to unlock the unknown. His form is said to be a shifting constellation, ever-changing and unknowable.
-
-### Domains
-
-- Knowledge
-- Secrets
-- Cosmic Magic
-
-### Blessings
-
-- Insight of the Unknown: Followers may cast divination spells with an additional level of clarity, reducing the chance of cryptic responses.
-- Veil Piercer: Once per day, a devotee can detect hidden magical auras within 60 feet, bypassing illusions or concealment.
+This project was developed in partnership with the cultural exchange project between South America and the rural agricultural transition towards environmental protection, involving more than 50 interviews and local visits.
 
 ---
 
-## Sylvanea, The Moonlit Scholar
+## Description
 
-Sylvanea governs the realm of structured learning and research. Often depicted as a serene figure reading an ancient tome under moonlight, she embodies the tranquility of study.
+This interactive Genially presentation documents the "Caravane Vidéo" initiative, a collaborative project led by CCFD-Terre Solidaire to tackle the systemic causes of global hunger and inequality.
 
-### Domains
+Framed as a tool for mobilization and awareness, the project moves beyond conventional documentary formats. It actively highlights the resilience, organizational capacity, and agroecological solutions developed by partner communities in the Global South (including areas with high indigenous linguistic vitality, like parts of the Andes, although not explicitly named in the Genially).
 
-- Wisdom
-- Ritual Magic
-- Lunar Phases
-
-### Blessings
-
-- **Eidetic Recall**: Followers can remember anything they read or hear perfectly for one week.
-- **Phases of Power**: Devotees gain a bonus to their spellcasting during specific lunar phases.
-
-| **Lunar Phase** | **Effect**               |
-| --------------- | ------------------------ |
-| Full Moon       | Increased spell damage   |
-| New Moon        | Improved stealth magic   |
-| Crescent Moon   | Enhanced illusion spells |
+For a sociolinguist, the Caravan is significant because it represents an intercultural communicative platform. It translates complex social and environmental justice issues across linguistic and geographic borders, demonstrating the challenge and necessity of ensuring that the voices, linguistic frames, and local epistemologies of marginalized communities are preserved and accurately represented in international advocacy efforts.
 
 ---
 
-## Korathal, The Flame of Creation
+## Outcomes
 
-Korathal represents raw magical power, the spark of invention, and the fire that forges both worlds and ideas. He is often shown as a blazing figure of molten gold.
+The project, when analyzed through a sociolinguistic lens, yields the following outcomes:
 
-### Domains
+### Linguistic Mediation and Translation: 
 
-- Creativity
-- Destruction
-- Elemental Magic (Fire)
+- It necessitates sophisticated linguistic brokerage to faithfully convey complex concepts (e.g., global economic mechanisms, agroecology science) between local indigenous languages (like Quechua, if the project engages Andean partners) and international advocacy languages (French, Spanish, etc.).
 
-### Blessings
+### Challenging Epistemic Injustice: 
 
-- **Ember's Touch**: Followers can summon a harmless flame in their palm, useful for light or small-scale crafting.
-- **Ignition Surge**: Once per day, amplify a fire-based spell to deal additional damage equal to the caster's level.
+- By centering the visual and narrative agency of local partners, the Caravan acts against epistemic injustice. It affirms that the knowledge and lived experiences of communities, often expressed in their native tongue, are authoritative and central to developing global solutions.
 
-> **Note**: Korathal's blessings often come with a warning. Those who seek power for destructive purposes without balance may find themselves consumed by the same flames they wield.
+### Digital and Visual Literacy: 
 
----
+- The use of video and interactive digital platforms (like Genially) to document and share information contributes to the expansion of digital and visual literacy domains within community-based sociolinguistic practices.
 
-## The Tapestry of the Arcane
-
-These deities, though distinct, are believed to work in harmony, their domains interwoven into a grand celestial tapestry. Followers often honor multiple members of the pantheon, seeking balance in their magical pursuits.
-
----
-
-### Example Ritual for Vaelthar
-
-``` txt
-- Prepare a silver bowl filled with pure water under the night sky.
-- Speak the incantation: *"Vaelthar, guide my thoughts beyond the veil."*
-- Drop a shard of obsidian into the water and gaze at the reflections to receive a vision.
-```
+As a native Quechua speaker, I view this project as a crucial case study in how international solidarity can intentionally or incidentally influence the prestige and communicative scope of local languages through media production and knowledge dissemination.

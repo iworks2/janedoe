@@ -72,6 +72,8 @@ const docs = defineCollection({
       imageAlt: z.string().default(""),
       hideToc: z.boolean().default(false),
       hideNav: z.boolean().default(false),
+      embedCode: z.string().optional(), // Contendrá el HTML del iframe o código embed
+      embedTitle: z.string().optional(), // Título descriptivo para el embed
     }),
 });
 
@@ -90,18 +92,6 @@ const home = defineCollection({
         })
         .optional(),
     }),
-});
-
-const indexCards = defineCollection({
-  loader: glob({
-    pattern: "-index.{md,mdx}",
-    base: "./src/content/index-cards",
-  }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    cards: z.array(z.string()),
-  }),
 });
 
 const poetry = defineCollection({
@@ -169,7 +159,6 @@ export const collections = {
   blog,
   docs,
   home,
-  indexCards,
   poetry,
   portfolio,
   recipes,

@@ -13,7 +13,7 @@ interface Props {
 
 const { entry, browserMenu } = Astro.props;
 const { Content, headings } = await render(entry);
-const { title, description, hideNav, hideToc, image } = entry.data;
+const { title, description, hideNav, hideToc, image, embedCode, embedTitle } = entry.data;
 
 const globalHideNav = false; // set true to always hide the nav bar (left side menu)
 const globalHideToc = false; // set true to always hide the table of contents (right side menu)
@@ -62,6 +62,20 @@ if (actuallyHideNav && actuallyHideToc) {
         <section class="">
           <EntryHeader entry={entry} showImage showPubDate />
         </section>
+        
+        {embedCode && (
+            <div class="my-6">
+                {embedTitle && <h3 class="h4 mb-2">{embedTitle}</h3>}
+                {/* Contenedor responsivo (para video 16:9) */}
+                <div class="relative w-full overflow-hidden" style="padding-top: 56.25%">
+                    <div 
+                        class="absolute top-0 left-0 bottom-0 right-0 w-full h-full"
+                        set:html={embedCode} // 
+                    />
+                </div>
+            </div>
+        )}
+
         <section class="content mb-4 glass px-4 rounded-lg">
           <Content />
         </section>

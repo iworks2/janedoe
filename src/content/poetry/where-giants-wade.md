@@ -1,6 +1,6 @@
 ---
 title: Where Giants Wade
-author: jane-doe
+author: eddy-machaca
 date: 2024-01-15
 ---
 

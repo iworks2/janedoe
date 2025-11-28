@@ -1,5 +1,5 @@
 ---
-title: Documentation
-description: This is the docs
+title: Some projects outcomes
+description: This is the projects
 draft: false
 ---

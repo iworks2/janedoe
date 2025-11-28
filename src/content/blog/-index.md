@@ -1,4 +1,4 @@
 ---
-title: Blog Posts
-description: The blog of Jane and John Doe
+title: Research
+description: The research of Eddy Machaca
 ---
