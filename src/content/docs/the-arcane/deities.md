@@ -5,43 +5,39 @@ image: "@assets/docs/the-arcane/deities/cover.jpg"
 imageAlt: La caravane portrait
 pubDate: 2024-12-02
 modDate: 2024-12-02
-embedTitle: Interactive Videó
+embedTitle: Interactive audiovisual content
 embedCode: |
     <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Caravane Vidéo - CCFD Terre Solidaire" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/648bb66e1866d000186b5f72" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 ---
 
-This project proposes the creation of an interactive book, both physical and digital,
-containing 10 Andean stories collected from native Quechua-speaking communities.
-The initiative aims to consolidate cultural exchange between Cornell University students
-and native Quechua speakers, while also producing didactic materials that strengthen
-language learning in an engaging, culturally grounded manner.
+This project was developed in partnership with the cultural exchange project between South America and the rural agricultural transition towards environmental protection, involving more than 50 interviews and local visits.
 
+---
+
+## Description
+
+This interactive Genially presentation documents the "Caravane Vidéo" initiative, a collaborative project led by CCFD-Terre Solidaire to tackle the systemic causes of global hunger and inequality.
+
+Framed as a tool for mobilization and awareness, the project moves beyond conventional documentary formats. It actively highlights the resilience, organizational capacity, and agroecological solutions developed by partner communities in the Global South (including areas with high indigenous linguistic vitality, like parts of the Andes, although not explicitly named in the Genially).
+
+For a sociolinguist, the Caravan is significant because it represents an intercultural communicative platform. It translates complex social and environmental justice issues across linguistic and geographic borders, demonstrating the challenge and necessity of ensuring that the voices, linguistic frames, and local epistemologies of marginalized communities are preserved and accurately represented in international advocacy efforts.
 
 ---
 
 ## Outcomes
 
-The project generated concrete outcomes at different levels
+The project, when analyzed through a sociolinguistic lens, yields the following outcomes:
 
-### For the Field of Language Teaching:
+### Linguistic Mediation and Translation: 
 
-- Creation of an innovative teaching resource that integrates storytelling, language practice, and cultural awareness.
-- A scalable methodology that can be adapted to other languages, especially less commonly taught or endangered languages, where the cultural approach is very significant
+- It necessitates sophisticated linguistic brokerage to faithfully convey complex concepts (e.g., global economic mechanisms, agroecology science) between local indigenous languages (like Quechua, if the project engages Andean partners) and international advocacy languages (French, Spanish, etc.).
 
-### For Native Communities:
+### Challenging Epistemic Injustice: 
 
-- Recognition of local native or heritage speakers as cultural ambassadors through the contest.
-- Tangible contribution to the preservation of oral traditions in a format accessible to a wider audience.
+- By centering the visual and narrative agency of local partners, the Caravan acts against epistemic injustice. It affirms that the knowledge and lived experiences of communities, often expressed in their native tongue, are authoritative and central to developing global solutions.
 
-### Transferability and Scalability:
+### Digital and Visual Literacy: 
 
-- The pedagogical model, story collection, integration of linguistic activities and creation of interactive resources can be replicated for other levels of Quechua or for other minority languages.
-- The methodology of intercultural exchange and project-based learning may inspire faculty across the Department of Romance Studies and other language programs.
-- It was very Important to point out over the diverse varieties of one language, that is the reason that this initial project was created to cover the Quechua Collao - Puno, Peru variety and it is totally possible to proceed with more varieties.
+- The use of video and interactive digital platforms (like Genially) to document and share information contributes to the expansion of digital and visual literacy domains within community-based sociolinguistic practices.
 
----
-
-## Impact
-
-This project allows the project team to strengthen their role as cultural ambassadors and community-engaged scholars, while consolidating expertise in project-based pedagogy, curriculum development, and intercultural communication.
-
+As a native Quechua speaker, I view this project as a crucial case study in how international solidarity can intentionally or incidentally influence the prestige and communicative scope of local languages through media production and knowledge dissemination.

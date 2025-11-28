@@ -1,8 +1,8 @@
 ---
-title: Masukuna
+title: Masokuna
 description: An interactive video
 image: "@assets/docs/masukuna/masukuna/cover.jpg"
-imageAlt: Video portrait
+imageAlt: Llanchupi Masokuna. Una Aventura de los Detectives Nocturnos (Llanchupi Masokuna. An Adventure of the Night Detectives)
 pubDate: 2024-12-02
 modDate: 2024-12-02
 embedTitle: Project video
@@ -10,38 +10,24 @@ embedCode: |
     <iframe width="560" height="315" src="https://www.youtube.com/embed/l0VVOhXuq1Y?si=ATkiMauIRKtcXflp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 
-This project proposes the creation of an interactive book, both physical and digital,
-containing 10 Andean stories collected from native Quechua-speaking communities.
-The initiative aims to consolidate cultural exchange between Cornell University students
-and native Quechua speakers, while also producing didactic materials that strengthen
-language learning in an engaging, culturally grounded manner.
-
+This video is an artifact of applied sociolinguistics and intercultural pedagogy, illustrating the expansion of the Quechua linguistic domain into science education and community-based knowledge production.
 
 ---
+The project, framed as an "Adventure of the Night Detectives" and led by Amanda Vilchez biologist from La Molina University, is highly relevant to studies on language maintenance and revitalization due to the following themes:
 
 ## Outcomes
 
 The project generated concrete outcomes at different levels
 
-### For the Field of Language Teaching:
+### Linguistic Agency and Identity:
 
-- Creation of an innovative teaching resource that integrates storytelling, language practice, and cultural awareness.
-- A scalable methodology that can be adapted to other languages, especially less commonly taught or endangered languages, where the cultural approach is very significant
+- The collaboration between academic researchers and the Lanchu community demonstrates the assertion of local and indigenous agency in defining scientific relevance. The use of Quechua as the primary language of instruction validates local knowledge systems and reinforces the link between the language and communal identity.
 
-### For Native Communities:
-
-- Recognition of local native or heritage speakers as cultural ambassadors through the contest.
-- Tangible contribution to the preservation of oral traditions in a format accessible to a wider audience.
-
-### Transferability and Scalability:
-
-- The pedagogical model, story collection, integration of linguistic activities and creation of interactive resources can be replicated for other levels of Quechua or for other minority languages.
-- The methodology of intercultural exchange and project-based learning may inspire faculty across the Department of Romance Studies and other language programs.
-- It was very Important to point out over the diverse varieties of one language, that is the reason that this initial project was created to cover the Quechua Collao - Puno, Peru variety and it is totally possible to proceed with more varieties.
+### Language in Educational Policy (EIB):
+Domain Expansion and Corpus Development: The video explicitly uses Quechua (as evidenced by the title "Llanchupi Masokuna" and the narrative fragments, including greetings and community names) to communicate complex scientific concepts related to nature observation. This process is crucial for the modernization and functional expansion of the Quechua linguistic corpus, positioning it as a viable language for academic and scientific discourse, not merely domestic use.
 
 ---
 
 ## Impact
 
-This project allows the project team to strengthen their role as cultural ambassadors and community-engaged scholars, while consolidating expertise in project-based pedagogy, curriculum development, and intercultural communication.
-
+The impact of this video lies in its ability to inspire, educate, and offer a practical roadmap for linking linguistic revitalization with scientific engagement and digital media.
