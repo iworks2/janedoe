@@ -1,6 +1,6 @@
 ---
 title: Caravane Vidéo
-description: The mystical elements of the world
-image: "@assets/docs/the-arcane/cover.jpg"
-imageAlt: Painting of swamp, with a glowing figure in the distance
+description: Interactive Videó 
+image: "@assets/docs/the-arcane/deities/cover.jpg"
+imageAlt: Caravane Videó portrait
 ---
