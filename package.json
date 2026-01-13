@@ -1,26 +1,16 @@
+
 {
   "name": "ascension",
-  "type": "module",
   "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.9",
-    "@astrojs/node": "^8.3.4",
-    "@astrojs/react": "^3.6.3",
-    "@astrojs/tailwind": "^5.1.0",
-    "@keystatic/astro": "^5.0.0",
-    "@keystatic/core": "^0.5.0",
-    "astro": "^4.16.18",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.4"
+    "astro": "^4.14.0",
+    "@astrojs/react": "^3.4.0"
   }
 }
