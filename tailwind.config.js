@@ -5,10 +5,13 @@ module.exports = {
     "./src/**/*.{astro,html,md,mdx,js,jsx,ts,tsx,svelte,vue}"
   ],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        secondary: ['YourSecondaryFontName', 'fallback-font'],
+      }
+    }
   },
   plugins: [
     require("@tailwindcss/typography")
   ]
 };
-``
