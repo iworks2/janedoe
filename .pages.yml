@@ -1,0 +1,113 @@
+
+media:
+  - name: images
+    label: Images
+    input: public/images
+    output: /images
+
+settings:
+  content:
+    merge: true
+
+content:
+  - name: posts
+    label: Blog
+    type: collection
+    path: src/content/blog
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: pubDate
+        label: Published Date
+        type: date
+      - name: updatedDate
+        label: Updated Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: author
+        label: Author
+        type: string
+      - name: heroImage
+        label: Hero Image
+        type: image
+      - name: heroAlt
+        label: Hero Alt
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+    view:
+      fields: [title, pubDate, draft, "tags[0]"]
+      primary: title
+      sort: [pubDate, title]
+      default:
+        sort: pubDate
+        order: desc
+
+  - name: docs
+    label: Docs
+    type: collection
+    path: src/content/docs
+    format: yaml-frontmatter
+    subfolders: true
+    filename: "{primary}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: order
+        label: Order
+        type: number
+      - name: body
+        label: Body
+        type: rich-text
+    view:
+      layout: tree
+      node:
+        filename: index.md
+        hideDirs: nodes
+      fields: [title, order]
+
+  - name: pages_home
+    label: Home
+    type: file
+    path: src/content/home/-index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+
+  - name: pages_about
+    label: About
+    type: file
+    path: src/content/about/-index.md
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
