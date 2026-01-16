@@ -1,0 +1,62 @@
+---
+/**
+ * Timed modal popup.
+ * Usage where included: <PromoModal client:idle delayMs={6000} />
+ */
+export interface Props { delayMs?: number }
+const { delayMs = 5000 } = Astro.props;
+---
+<style>
+  .pm-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,.5);
+    display: none; align-items: center; justify-content: center; z-index: 9998;
+  }
+  .pm-backdrop.show { display: flex; }
+  .pm-card {
+    width: min(92vw, 560px);
+    background: #0b1220; /* deep slate */
+    color: #e5e7eb;
+    border: 1px solid rgba(148,163,184,.25);
+    border-radius: 12px; padding: 1.25rem 1.25rem 1rem;
+    box-shadow: 0 20px 60px rgba(0,0,0,.45);
+  }
+  .pm-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:.75rem; }
+  .pm-title  { margin:0; font-size:1.125rem; font-weight:600; }
+  .pm-close  { background:transparent;color:#94a3b8;border:0;cursor:pointer;font-size:1.25rem; }
+  .pm-close:hover { color:#e2e8f0; }
+  .pm-body   { font-size:.975rem; line-height:1.6 }
+  .pm-actions{ margin-top:1rem; display:flex; gap:.5rem; justify-content:flex-end }
+  .btn{border:0; cursor:pointer; padding:.5rem .9rem; border-radius:8px}
+  .btn-primary{ background:#3b82f6; color:#fff }
+  .btn-secondary{ background:#334155; color:#e2e8f0 }
+</style>
+
+<div id="pm-backdrop" class="pm-backdrop" aria-hidden="true">
+  <div role="dialog" aria-modal="true" aria-labelledby="pm-title" class="pm-card">
+    <div class="pm-header">
+      <h2 id="pm-title" class="pm-title">Welcome to Ascension Hill</h2>
+      <button class="pm-close" aria-label="Close" title="Close">&times;</button>
+    </div>
+    <div class="pm-body">
+      <p>Explore the latest notes, teachings, and resources. Stay awhile—there’s a lot to discover.</p>
+    </div>
+    <div class="pm-actions">
+      <button class="btn btn-secondary pm-close">Dismiss</button>
+      /notes/View notes</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  const delayMs = Number({delayMs});
+  const backdrop = document.getElementById('pm-backdrop');
+  const open  = () => backdrop.classList.add('show');
+  const close = () => backdrop.classList.remove('show');
+
+  const wire = () => {
+    backdrop.addEventListener('click', (e) => { if (e.target === backdrop) close(); });
+    backdrop.querySelectorAll('.pm-close').forEach(btn => btn.addEventListener('click', close));
+  };
+
+  setTimeout(() => { wire(); open(); }, isNaN(delayMs) ? 5000 : delayMs);
+</script>

@@ -1,0 +1,50 @@
+---
+/**
+ * Minimal floating "Back to top" button.
+ * Hydrate with client:idle where you include it: <BackToTop client:idle />
+ */
+---
+<style>
+  .back-to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 9999;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 9999px;
+    background: #334155; /* slate-600 */
+    color: #e5e7eb;      /* gray-200 */
+    box-shadow: 0 6px 18px rgba(0,0,0,.25);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+  }
+  .back-to-top:hover { background: #475569; }
+  .back-to-top.show { opacity: 1; visibility: visible; transform: translateY(0); }
+  .back-to-top.hide { transform: translateY(8px); }
+  .icon { width: 22px; height: 22px; }
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+</style>
+
+<button id="backToTop" class="back-to-top hide" aria-label="Back to top" title="Back to top">
+  <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 19V5M12 5L5 12M12 5l7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <span class="sr-only">Back to top</span>
+</button>
+
+<script>
+  const btn = document.getElementById('backToTop');
+  const showAt = 300;
+  const onScroll = () => {
+    if (window.scrollY > showAt) { btn.classList.add('show'); btn.classList.remove('hide'); }
+    else { btn.classList.add('hide'); btn.classList.remove('show'); }
+  };
+  const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.addEventListener('scroll', onScroll, { passive: true });
+  btn.addEventListener('click', toTop);
+</script>

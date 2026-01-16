@@ -1,0 +1,50 @@
+---
+/**
+ * Auto-index all Markdown notes in this folder.
+ * Every .md file in /src/pages/notes/ becomes a page under /notes/<filename>.
+ */
+const modules = import.meta.glob('./*.md', { eager: true });
+type Item = { url: string; title: string; date: string };
+const items: Item[] = Object.entries(modules).map(([p, mod]: any) => {
+  const file = p.replace('./', '');
+  const slug = file.replace(/\.mdx?$/i, '').replace(/\.md$/i, '');
+  const url  = `/notes/${slug}`;
+  const fm   = mod.frontmatter || {};
+  return { url, title: fm.title || slug, date: fm.date || '' };
+}).sort((a, b) => (a.date > b.date ? -1 : a.date < b.date ? 1 : 0));
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notes</title>
+    <style>
+      :root{ --bg:#0b1220; --panel:#0f172a; --ink:#e5e7eb; --muted:#94a3b8; --accent:#3b82f6; }
+      body{ margin:0; padding:2rem; background:var(--bg); color:var(--ink); font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height:1.6 }
+      a{ color:var(--accent); text-decoration:none }
+      a:hover{ text-decoration:underline }
+      .meta{ color:var(--muted); font-size:.9rem }
+      ul{ list-style:none; padding:0; margin:1rem 0 0 0 }
+      li{ margin:.4rem 0 }
+      .panel{ background:var(--panel); border:1px solid rgba(148,163,184,.18); border-radius:12px; padding:1rem 1.25rem }
+    </style>
+  </head>
+  <body>
+    <div class="panel">
+      <h1 style="margin:.25rem 0">Notes</h1>
+      <p class="meta" style="margin:.25rem 0 1rem 0">Auto‑listed from <code>/src/pages/notes/*.md</code></p>
+      {items.length === 0 ? (
+        <p>No notes yet.</p>
+      ) : (
+        <ul>
+          {items.map((i) => (
+            <li>
+              <a href={i.url}>{i.title}</a>{i.date ? <span class="meta"> — {i.date}</span> : null}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </body>
+</html>
