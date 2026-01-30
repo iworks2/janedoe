@@ -10,9 +10,10 @@ import rehypeKatex from "rehype-katex";
 import remarkMath from "remark-math";
 import cloudflare from "@astrojs/cloudflare";
 
+const site = process.env.PUBLIC_SITE_URL || 'http://localhost:4321';
+
 // https://astro.build/config
 export default defineConfig({
-  site: "https://janedoe.com",
   base: "/",
   trailingSlash: "ignore",
   prefetch: {
